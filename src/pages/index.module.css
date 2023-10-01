@@ -11,47 +11,88 @@
 .body {
   position: absolute;
   top: 0;
-  left: -175px;
+  left: -177.5px;
   width: 355px;
   height: 365px;
   background: #f4a5aa;
+  border: solid #040000 8px;
   border-radius: 50%;
 }
 
-.eyeL {
+.bodyline {
   position: absolute;
-  top: 70px;
-  left: 30px;
-  width: 40px;
-  height: 100px;
-  background: #040000;
-  border-radius: 50%;
 }
 
-.eyeR {
+.bodylineE {
+  position: absolute;
+  top: 152px;
+  right: -179px;
+  width: 358px;
+  height: 98px;
+  background: #f4a5aa;
+}
+
+
+
+.eyeRt {
   position: absolute;
   top: 70px;
   right: 30px;
   width: 40px;
-  height: 100px;
+  height: 60px;
   background: #040000;
   border-radius: 50%;
 }
 
-.lightL {
+.eyeRr {
   position: absolute;
-  top: 80px;
-  left: 39px;
-  width: 22px;
-  height: 41px;
-  background: #fff;
+  top: 88px;
+  right: 62px;
+  z-index: 1;
+  width: 10px;
+  height: 67px;
+  background: #040000;
   border-radius: 50%;
 }
 
-.lightR {
+.eyeRu {
+  position: absolute;
+  top: 114px;
+  right: 30px;
+  z-index: 2;
+  width: 40px;
+  height: 60px;
+  background: #0474bc;
+  border: #040000 8px solid;
+  border-radius: 50%;
+}
+
+.eyeRl {
+  position: absolute;
+  top: 88px;
+  right: 28px;
+  width: 10px;
+  height: 67px;
+  background: #040000;
+  border-radius: 50%;
+}
+
+.eyeRm {
+  position: absolute;
+  top: 102px;
+  right: 33px;
+  z-index: 3;
+  width: 34px;
+  height: 40px;
+  background: #040000;
+  border-radius: 50%;
+}
+
+.highlightR {
   position: absolute;
   top: 80px;
   right: 39px;
+  z-index: 4;
   width: 22px;
   height: 41px;
   background: #fff;
@@ -82,22 +123,33 @@
 
 .mouth {
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: -25px;
   width: 50px;
-  height: 13px;
+  height: 36px;
   border: solid 5px #040000;
-  border-color: transparent transparent #040000;
+  border-color: #040000;
   border-radius: 50%;
+}
+
+.mouthE {
+  position: absolute;
+  top: 151px;
+  left: -30px;
+  width: 60px;
+  height: 30px;
+  background: #f4a5aa;
 }
 
 .handL {
   position: absolute;
   top: 120px;
   right: 80px;
+  z-index: -1;
   width: 145px;
   height: 145px;
   background: #f4a5aa;
+  border: solid #040000 8px;
   border-radius: 50px;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 90px;
@@ -107,9 +159,11 @@
   position: absolute;
   top: 120px;
   left: 80px;
+  z-index: -1;
   width: 145px;
   height: 145px;
   background: #f4a5aa;
+  border: solid #040000 8px;
   border-radius: 50px;
   border-top-right-radius: 100px;
   border-bottom-left-radius: 90px;
@@ -117,15 +171,14 @@
 
 .legL {
   position: absolute;
-  top: 200px;
+  top: 280px;
   right: -30px;
   z-index: -1;
   width: 210px;
-  height: 210px;
+  height: 130px;
   background: #e0005b;
-  border-radius: 50px;
-  border-top-left-radius: 300px;
-  border-bottom-right-radius: 300px;
+  border: solid #040000 8px;
+  border-radius: 40% 60% 65% 35%/80% 30% 70% 20%;
 }
 
 .legR {
@@ -136,6 +189,7 @@
   width: 210px;
   height: 210px;
   background: #e0005b;
+  border: solid #040000 8px;
   border-radius: 50px;
   border-top-right-radius: 300px;
   border-bottom-left-radius: 300px;
