@@ -1,0 +1,30 @@
+.mouthBase {
+  position: fixed;
+  top: 50%;
+  left: calc(50% - 8px);
+  width: 0;
+  height: 0;
+  margin-top: -200px;
+}
+
+.mouth {
+  position: absolute;
+  top: 155px;
+  left: -22px;
+  z-index: -4;
+  width: 60px;
+  height: 50px;
+  background: #f4a5aa;
+  border: solid #040000 6px;
+  border-radius: 50%;
+}
+
+.mouthE {
+  position: absolute;
+  top: 147px;
+  left: -22px;
+  z-index: -3;
+  width: 64px;
+  height: 40px;
+  background: #f4a5aa;
+}

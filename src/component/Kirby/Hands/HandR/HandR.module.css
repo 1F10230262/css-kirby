@@ -1,0 +1,14 @@
+
+.handR {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  z-index: -1;
+  width: 145px;
+  height: 145px;
+  background: #f4a5aa;
+  border: solid #040000 8px;
+  border-radius: 50px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 90px;
+}

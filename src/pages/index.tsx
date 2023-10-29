@@ -1,26 +1,25 @@
+import { Body } from '../component/Kirby/Body/Body';
 import { EyeL } from '../component/Kirby/Eyes/EyeL/EyeL';
+import { EyeR } from '../component/Kirby/Eyes/EyeR/EyeR';
+import { HandL } from '../component/Kirby/Hands/HandL/HandL';
+import { HandR } from '../component/Kirby/Hands/HandR/HandR';
+import { Mouth } from '../component/Kirby/Mouth/Mouth';
 import styles from './index.module.css';
 
 const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.base}>
-        <div className={styles.body} />
-        <div className={styles.bodyline} />
-        <div className={styles.bodylineE} />
+        <Body />
+        <div className={styles.bodylineEL} />
+        <div className={styles.bodylineER} />
+        <Mouth />
         <EyeL />
-        <div className={styles.eyeRt} />
-        <div className={styles.eyeRr} />
-        <div className={styles.eyeRu} />
-        <div className={styles.eyeRl} />
-        <div className={styles.eyeRm} />
-        <div className={styles.highlightR} />
+        <EyeR />
         <div className={styles.cheekL} />
         <div className={styles.cheekR} />
-        <div className={styles.mouth} />
-        <div className={styles.mouthE} />
-        <div className={styles.handL} />
-        <div className={styles.handR} />
+        <HandL />
+        <HandR />
         <div className={styles.legL} />
         <div className={styles.legR} />
       </div>

@@ -1,0 +1,39 @@
+.bodyBase {
+  position: fixed;
+  top: 50%;
+  width: 0;
+  height: 0;
+  margin-top: -200px;
+}
+
+.body {
+  position: absolute;
+  top: 8px;
+  left: -175px;
+  width: 351px;
+  height: 331px;
+  background: #f4a5aa;
+  border-radius: 50%;
+}
+
+.bodyshadow {
+  position: absolute;
+  top: 0;
+  left: -177.5px;
+  width: 355px;
+  height: 365px;
+  background: #eb6b8e;
+  border: solid #040000 8px;
+  border-radius: 50%;
+}
+
+.bodyline {
+  position: absolute;
+  top: 0;
+  left: -177.5px;
+  width: 355px;
+  height: 365px;
+  background: transparent;
+  border: solid #040000 8px;
+  border-radius: 50%;
+}
