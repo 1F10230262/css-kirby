@@ -1,10 +1,10 @@
-.handBase {
+.handLBase {
   position: fixed;
   top: 50%;
-  left: calc(50% - 8px);
+  z-index: -1;
   width: 0;
   height: 0;
-  margin-top: -2;
+  margin-top: -200px;
 }
 
 .handL {
@@ -34,3 +34,5 @@
   border-top-left-radius: 100px;
   border-bottom-right-radius: 90px;
 }
+
+
